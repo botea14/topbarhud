@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="hud.css">
+    <title>HUD</title>
+</head>
+<body>
+    <div id="hud">
+	
+        <img id="server-logo" src="logo.png" alt="Server Logo">
+        <span id="game-time">--:--</span>
+		<div id="happy-hour"></div>
+		<div id="server-name">Name:</div>
+        <div id="player-name">Name</div>
+
+        <div class="separator">|</div>
+
+        <div id="players">Players: <span id="player-count">2/48</span></div>
+
+        <div class="separator">|</div>
+
+        <div id="fps">
+            FPS: <span id="fps-value">91</span>
+        </div>
+    </div>
+
+    <script src="hud.js"></script>
+</body>
+</html>
